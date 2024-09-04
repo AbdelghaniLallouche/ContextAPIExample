@@ -1,0 +1,32 @@
+*{
+  padding: 0;
+  color: black;
+  margin: 0;
+}
+body{
+  height: 100%;
+  width: 100%;
+  background-color: aqua;
+}
+.navbar{
+  margin: 20px auto;
+  max-width: 400px;
+  text-align: center;
+}
+.navbar ul{
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+li{
+  list-style: none;
+}
+.book-list{
+  margin: 10px auto;
+  max-width: 400px;
+  text-align: center;
+}
+.book-list ul li{
+  padding: 10px;
+}
